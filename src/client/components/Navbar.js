@@ -20,7 +20,7 @@ export default function Navbar() {
                 <div id="search-text"><textarea name="search-textarea" id="" cols="30" rows="1" placeholder="Search here"></textarea> </div>
                 <img src={`${searchicon}`} className='search-icon' alt="" />
             </div>
-            <div className="right-cnt">project SLACK</div>
+            <div className="right-cnt">Project SLACK</div>
             <div className="acc-cnt"><img src={`${accicon}`} alt="" /></div>
         </div>
     )
