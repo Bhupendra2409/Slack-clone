@@ -3,12 +3,17 @@ import Chatwin from './Chatwin'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 
+import '../styles/mainmenu.css'
+
 export default function Mainmenu() {
     return (
-        <div>
+        <div className='mm-cnt'>
             <Navbar />
-            <Sidebar />
-            <Chatwin />
+            <div className="sb-cw-cnt">
+                <Sidebar />
+                <Chatwin />
+            </div>
+            
         </div>
     )
 }
