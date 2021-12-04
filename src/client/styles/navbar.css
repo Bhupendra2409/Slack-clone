@@ -28,6 +28,15 @@
     transition: all 0.1s ease-in;
     height: 70%;
 }
+#menudd{
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
+#menudd::after{
+   content: none;
+}
 #mmicon:hover{
     opacity: 100%;
 }
@@ -80,7 +89,7 @@
 #search-text textarea{
     outline: none;
     border: none;
-    
+    width: 100%;
     resize: none;
     background-color: transparent;
     color: rgba(255,255,255,0.7);
