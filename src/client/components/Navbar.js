@@ -16,10 +16,13 @@ export default function Navbar() {
             <button class="dropdown-toggle" type="button" id="menudd" data-bs-toggle="dropdown" aria-expanded="false">
             <img src={`${mmicon}`} id='mmicon' alt="" />
             </button>
-            <ul class="dropdown-menu" aria-labelledby="menudd">
-                <li><a class="dropdown-item" href="">Action</a></li>
-                <li><a class="dropdown-item" href="">Another action</a></li>
-                <li><a class="dropdown-item" href="">Something else here</a></li>
+            <ul class="dropdown-menu py-3" aria-labelledby="menudd">
+                <li><a class="dropdown-item grey py-2 px-4" href="">Internships IIT Roorkee</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Slack Clone Project</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Whatsapp Clone</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Create new Workspace</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Sign out of all Workspaces</a></li>
+
             </ul>
             </div>
             <div className="btn-cnt">
@@ -31,7 +34,18 @@ export default function Navbar() {
                 <img src={`${searchicon}`} className='search-icon' alt="" />
             </div>
             <div className="right-cnt">Project SLACK</div>
-            <div className="acc-cnt"><img src={`${accicon}`} alt="" /></div>
+            
+            <div class="dropdown">
+            <button class="dropdown-toggle act-cnt" type="button" id="accdd" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src={`${accicon}`} id='accicon' alt="" />
+            </button>
+            <ul class="dropdown-menu py-3" aria-labelledby="accdd">
+                <li><a class="dropdown-item grey py-2 px-4" href="">My Profile</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Saved messages</a></li>
+                <li><a class="dropdown-item grey py-2 px-4" href="">Log out</a></li>
+                
+            </ul>
+            </div>
         </div>
     )
 }
