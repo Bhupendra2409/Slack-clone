@@ -110,6 +110,9 @@
     overflow: hidden;
 }
 #search-text textarea{
+    display: flex;
+    align-self: center;
+    overflow: hidden;
     outline: none;
     border: none;
     width: 100%;
