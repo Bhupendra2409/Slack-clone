@@ -11,7 +11,7 @@ export default function Mainmenu() {
             <Navbar />
             <div className="sb-cw-cnt">
                 <Sidebar />
-                <Chatwin />
+                <Chatwin channelName='announcements'/>
             </div>
             
         </div>

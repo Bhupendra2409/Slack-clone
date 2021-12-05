@@ -1,0 +1,36 @@
+#cw-cnt{
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    height: 100%;
+}
+#cn-cnt{
+    border-bottom: 1px solid #CECECE;
+    font-weight: 600;
+}
+#msg-cnt{
+
+}
+#type-area-cnt{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 0.4rem;
+}
+#msg-textarea{
+    resize: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+}
+#msg-textarea:focus{
+    outline: none;
+    border: none;
+}
+#msg-option-cnt{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+#msg-option-cnt button img{
+    height: 1rem;
+    object-fit: contain;
+}
