@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div id="search-text"><textarea name="search-textarea" cols="30" rows="1" placeholder="Search here"></textarea> </div>
                 <img src={`${searchicon}`} className='search-icon' alt="" />
             </div>
-            <div className="right-cnt d-flex align-middle flex-row-reverse">Project SLACK</div>
+            <div className="right-cnt d-flex align-middle flex-row-reverse"> <div style={{fontWeight: "600"}}>SLACK </div>Project</div>
             
             <div className="dropdown">
             <button className="dropdown-toggle act-cnt" type="button" id="accdd" data-bs-toggle="dropdown" aria-expanded="false">

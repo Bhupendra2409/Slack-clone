@@ -1,5 +1,7 @@
 import React from "react";
 
+import Msgbox from "./Msgbox";
+
 import sendicon from "../styles/images/send.svg";
 import attachicon from "../styles/images/attachicon.svg";
 
@@ -11,7 +13,9 @@ export default function Chatwin({ channelName }) {
       <div id="cn-cnt" className="fs-6 text-start py-3 px-3 align-middle">
         {channelName}
       </div>
-      <div id="msg-cnt"></div>
+      <div id="msg-cnt">
+        <Msgbox isFile={true} isMsg={true} name='Bhupendra' email='bmalakar441@gmail.com'/>
+      </div>
       <div id="type-area-cnt" className="p-1 m-3">
         <textarea
           className="p-1"
