@@ -27,7 +27,7 @@ export default function Login() {
             </div>
             {status==='Login' && <Loginform />}
             {status==='Signup' && <Signupform/>}
-        </div>
+            </div>
         </div>
     )
 }
